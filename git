@@ -1,0 +1,10 @@
+git init - initialize a repository
+git status - check for track and untracked changes
+git add - to update the rpository by adding new files/changes
+git commit -m "commit statement" - to commit a particular change 
+git log - to see commited changes and its features(the hash, when it was submitted, etc)
+git diff file_name - is used to see the difference betwen the previous version snd the updated version
+git checkout file_name - to roll-back to the previous version after the change was made
+git remote add origin url_of_the_repository - used to create a remote repository
+
+git push -u origin master - used to push to the repository

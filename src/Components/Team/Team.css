@@ -1,0 +1,71 @@
+
+.team .items{
+    transition: 0.5s all ease;
+}
+
+.team .image{
+    position: relative;
+}
+.team img{
+    width: 100%; 
+    height: 100%;
+
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s;
+    opacity: 0;
+    
+}
+
+.overlay .icon{
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
+
+.overlay .icon:hover{
+   
+    color: #fff;
+    background-color: #1eb2a6;
+    
+}
+
+.team .details{
+    padding: 30px;
+    text-align: center;
+}
+
+.team .details h2{
+   font-weight: 500;
+   font-size: 20px;
+   transition: 0.5s;
+}
+
+.team .details p {
+   font-size: 15px;
+   color: gray;
+   margin-top: 1opx;
+   transition: 0.5s;
+}
+
+.team .items:hover {
+   background-color: #1eb2a6;
+   color: #fff;
+   cursor: pointer;
+}
+
+.team .items:hover p{ 
+     
+    color: #fff;
+
+ } 
+.team .items:hover .overlay{
+    opacity: 1;
+}
